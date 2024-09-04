@@ -17,27 +17,27 @@ public class Main {
             System.out.println("hello world");
         }
 		//write an if statement that prints out "Why did the man fall down the well?" if the input was less than 5
-		else if (num1<5) {
+		if (num1<5) {
 			System.out.println("Why did the man fall down the well?");
 		}
 		//write an if statement that prints out "Because he couldn’t see that well." if the input was greater than 1
-		else if (num1>1) {
-			System.out.println("Because he couldn't see that well.");
+		if (num1>1) {
+			System.out.println("Because he couldnt see that well.");
 		}
 		//write an if statement that prints out "When does a joke become a dad joke?"  if the input was equal to 8
-		else if (num1==8) {
+		if (num1==8) {
 			System.out.println("When does a joke become a dad joke?");
 		}
 		//write an if statement that prints out "When it becomes apparent."  if the input was greater than or equal to 8
-		else if (num1>=8){
+		if (num1>=8){
 			System.out.println("When it becomes apparent.");
 		}
 		//write an if statement that prints out "I used to hate facial hair," if the input is less than or equal to 12
-		else if (num1<=12) {
+		if (num1<=12) {
 			System.out.print("I used to hate facial hair,");
 		}
 		//write an if statement that prints out " but then it grew on me."  if the input does not equal 23
-		else if (num1!=23){
+		if (num1!=23){
 			System.out.println(" but then it grew on me.");
 		}
 	}
